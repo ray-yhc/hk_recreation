@@ -26,7 +26,7 @@
           </button> 
         </header>
 
-        <div class="container">
+        <!-- <div class="container">
           <div class="row align-items-start">
             <div class="col">
               <h3>
@@ -43,7 +43,7 @@
               </h3>
             </div>
           </div>
-        </div>
+        </div> -->
 
 
         <div class="container">
@@ -52,6 +52,35 @@
               <h3>
                 영어 스피드퀴즈 문제 리스트
               </h3>
+              <!-- 설명서 버튼 -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                게임설명
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 설명서 -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">영어 스피드퀴즈</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <ol style="text-align: left;">
+                  <li>문제 묶음 중 하나를 선택하세요</li>
+                  <li>영화 명대사, 유명 가사, 유행어, 성경말씀 등이 출제됩니다</li>
+                  <li>내 차례가 되면 화면의 "다음문제 버튼"을 클릭해서 문제를 확인하세요</li>
+                  <li>출제자는 문제 내용을 "영어로" 설명해야 합니다.</li>
+                  <li>다른 사람들이 문제를 맞히면 다음으로 넘어갑니다</li>
+                  <li>3분간 더 많은 문제를 맞힌 팀이 승리합니다.</li>
+                </ol>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
         </div>
@@ -74,7 +103,7 @@
               </button> 
             </div>
           </div>
-          <div class="row align-items-start py-3">
+          <!-- <div class="row align-items-start py-3">
             <div class="col">
               <button type="button" class="btn btn-secondary">
                 1
@@ -90,26 +119,19 @@
                 1
               </button> 
             </div>
-          </div>
-          <div class="row align-items-start py-3">
-            <div class="col">
-              <button type="button" class="btn btn-secondary">
-                1
-              </button> 
-            </div>
-            <div class="col">
-              <button type="button" class="btn btn-secondary">
-                1
-              </button> 
-            </div>
-            <div class="col">
-              <button type="button" class="btn btn-secondary">
-                1
-              </button> 
-            </div>
-          </div>
+          </div> -->
         </div>
     </div>  
+    
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!--	-->
+    <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
   </body>
 </html>
 
